@@ -1,0 +1,38 @@
+
+.header{
+    background-color:var(--section-color);
+}
+.blog {
+    margin: 5rem 0;
+}
+.blog .box {
+   background-color: rgba(128, 128, 128, 0.139);
+   padding: 1rem;
+   border-bottom: 3px solid var(--main-color);
+   margin: 1rem 0;
+}
+.blog .box p {
+   margin: 1rem 1rem !important;
+ }
+.blog .box img{
+    width: 100%;
+}
+ 
+@media (max-width: 990px) {
+    .blog .box {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+ 
+.aside{
+    background-color:rgba(128, 128, 128, 0.173);
+    text-align: center;
+}
+.aside ul li{
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid;
+}
